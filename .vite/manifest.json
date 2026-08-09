@@ -1,0 +1,167 @@
+{
+  "_commerce-DVeOGz2k.css": {
+    "file": "assets/commerce-DVeOGz2k.css",
+    "src": "_commerce-DVeOGz2k.css"
+  },
+  "_commerce.module-D3r2oJGk.js": {
+    "file": "assets/commerce.module-D3r2oJGk.js",
+    "name": "commerce.module",
+    "css": [
+      "assets/commerce-DVeOGz2k.css"
+    ]
+  },
+  "_framework-DjPHiq1u.js": {
+    "file": "assets/framework-DjPHiq1u.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "_link-BQUB5cqZ.js": {
+    "file": "assets/link-BQUB5cqZ.js",
+    "name": "link",
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-DjPHiq1u.js"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/router.js"
+    ]
+  },
+  "_product-config-67JJDiwe.js": {
+    "file": "assets/product-config-67JJDiwe.js",
+    "name": "product-config"
+  },
+  "_rolldown-runtime-S-ySWqyJ.js": {
+    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+    "name": "rolldown-runtime"
+  },
+  "app/page.tsx": {
+    "file": "assets/page-DyRBdoT6.js",
+    "name": "page",
+    "src": "app/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "app/word-count-tool/page.tsx",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "app/word-count-tool/billing/page.tsx": {
+    "file": "assets/page--Ye70Yob.js",
+    "name": "page",
+    "src": "app/word-count-tool/billing/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_commerce.module-D3r2oJGk.js",
+      "_product-config-67JJDiwe.js",
+      "_framework-DjPHiq1u.js",
+      "_link-BQUB5cqZ.js"
+    ]
+  },
+  "app/word-count-tool/download/page.tsx": {
+    "file": "assets/page-nts5ztVH.js",
+    "name": "page",
+    "src": "app/word-count-tool/download/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_product-config-67JJDiwe.js",
+      "_framework-DjPHiq1u.js",
+      "_link-BQUB5cqZ.js"
+    ],
+    "css": [
+      "assets/page-BglOkF96.css"
+    ]
+  },
+  "app/word-count-tool/page.tsx": {
+    "file": "assets/page-B5_nD5SM.js",
+    "name": "page",
+    "src": "app/word-count-tool/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_product-config-67JJDiwe.js",
+      "_framework-DjPHiq1u.js",
+      "_link-BQUB5cqZ.js"
+    ],
+    "css": [
+      "assets/page-Db4wj4di.css"
+    ]
+  },
+  "app/word-count-tool/subscribe/page.tsx": {
+    "file": "assets/page-G-4rUsP8.js",
+    "name": "page",
+    "src": "app/word-count-tool/subscribe/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_commerce.module-D3r2oJGk.js",
+      "_product-config-67JJDiwe.js",
+      "_framework-DjPHiq1u.js",
+      "_link-BQUB5cqZ.js"
+    ]
+  },
+  "app/word-count-tool/subscribe/success/page.tsx": {
+    "file": "assets/page-Vo3d1b2c.js",
+    "name": "page",
+    "src": "app/word-count-tool/subscribe/success/page.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_commerce.module-D3r2oJGk.js",
+      "_product-config-67JJDiwe.js",
+      "_framework-DjPHiq1u.js",
+      "_link-BQUB5cqZ.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-CS9IbNuk.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/router.js": {
+    "file": "assets/router-BvUaZp7t.js",
+    "name": "router",
+    "src": "node_modules/vinext/dist/shims/router.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-DjPHiq1u.js",
+      "_link-BQUB5cqZ.js"
+    ],
+    "dynamicImports": [
+      "_framework-DjPHiq1u.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "assets/index-ChcyQCt4.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_framework-DjPHiq1u.js"
+    ],
+    "dynamicImports": [
+      "app/word-count-tool/subscribe/page.tsx",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "virtual:vinext-app-browser-entry",
+      "app/page.tsx",
+      "app/word-count-tool/billing/page.tsx",
+      "app/word-count-tool/subscribe/success/page.tsx",
+      "app/word-count-tool/download/page.tsx",
+      "_link-BQUB5cqZ.js",
+      "app/word-count-tool/page.tsx"
+    ]
+  }
+}
