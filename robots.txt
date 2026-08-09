@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /work/
+
+Sitemap: https://routineoff.com/sitemap.xml
