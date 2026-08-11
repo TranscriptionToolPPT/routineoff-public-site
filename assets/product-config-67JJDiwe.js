@@ -1,1 +1,0 @@
-var e=`1.3.5`,t=`Mohamed95Hassan12@gmail.com`,n=`https://word-count-business-prod-production.up.railway.app`,r=[{code:`office_2`,users:2,price:50},{code:`office_3`,users:3,price:65,popular:!0},{code:`office_4`,users:4,price:80}];function i(e){return r.find(t=>t.code===e)??r[0]}export{i as a,t as i,r as n,e as r,n as t};
