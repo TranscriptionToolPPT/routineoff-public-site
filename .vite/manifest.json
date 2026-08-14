@@ -11,7 +11,7 @@
     "name": "rolldown-runtime"
   },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-Zx7m9uN9.js",
+    "file": "assets/router-BkCaB2ej.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
@@ -26,7 +26,7 @@
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-BKOouvTy.js",
+    "file": "assets/index-DsItImg4.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -39,7 +39,7 @@
     ]
   },
   "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry": {
-    "file": "assets/worker-entry-D6ulll1X.js",
+    "file": "assets/worker-entry-D5xa8UyJ.js",
     "name": "worker-entry",
     "src": "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry",
     "isDynamicEntry": true,
@@ -52,7 +52,7 @@
       "node_modules/vinext/dist/shims/router.js"
     ],
     "css": [
-      "assets/worker-entry-52-xxs-c.css"
+      "assets/worker-entry-rODwSHUr.css"
     ]
   }
 }
