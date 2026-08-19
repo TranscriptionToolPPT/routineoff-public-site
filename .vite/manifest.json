@@ -1,195 +1,58 @@
 {
-  "_commerce-CyvHkRd0.css": {
-    "file": "assets/commerce-CyvHkRd0.css",
-    "src": "_commerce-CyvHkRd0.css"
-  },
-  "_commerce.module-Dt1KwiQ4.js": {
-    "file": "assets/commerce.module-Dt1KwiQ4.js",
-    "name": "commerce.module",
-    "css": [
-      "assets/commerce-CyvHkRd0.css"
-    ]
-  },
-  "_framework-CXnKph_e.js": {
-    "file": "assets/framework-CXnKph_e.js",
+  "_framework-bym5aI3S.js": {
+    "file": "assets/framework-bym5aI3S.js",
     "name": "framework",
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js"
+      "_rolldown-runtime-hePW80VL.js"
     ]
   },
-  "_link-BOGedi5S.js": {
-    "file": "assets/link-BOGedi5S.js",
-    "name": "link",
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js"
-    ],
-    "dynamicImports": [
-      "node_modules/vinext/dist/shims/router.js"
-    ]
-  },
-  "_product-ui-Bxzwk7sa.js": {
-    "file": "assets/product-ui-Bxzwk7sa.js",
-    "name": "product-ui",
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js",
-      "_link-BOGedi5S.js"
-    ],
-    "css": [
-      "assets/product-ui-CdPp2YU_.css"
-    ]
-  },
-  "_product-ui-CdPp2YU_.css": {
-    "file": "assets/product-ui-CdPp2YU_.css",
-    "src": "_product-ui-CdPp2YU_.css"
-  },
-  "_rolldown-runtime-S-ySWqyJ.js": {
-    "file": "assets/rolldown-runtime-S-ySWqyJ.js",
+  "_rolldown-runtime-hePW80VL.js": {
+    "file": "assets/rolldown-runtime-hePW80VL.js",
     "name": "rolldown-runtime"
   },
-  "app/contact/contact-client.tsx": {
-    "file": "assets/contact-client-Cqi6VTj5.js",
-    "name": "contact-client",
-    "src": "app/contact/contact-client.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_product-ui-Bxzwk7sa.js",
-      "_framework-CXnKph_e.js",
-      "_link-BOGedi5S.js"
-    ],
-    "css": [
-      "assets/contact-client-DtrOiPuF.css"
-    ]
-  },
-  "app/page.tsx": {
-    "file": "assets/page-zgD8kZbc.js",
-    "name": "page",
-    "src": "app/page.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_product-ui-Bxzwk7sa.js",
-      "app/word-count-tool/page.tsx",
-      "_framework-CXnKph_e.js"
-    ]
-  },
-  "app/word-count-tool/billing/page.tsx": {
-    "file": "assets/page-ceH70ISn.js",
-    "name": "page",
-    "src": "app/word-count-tool/billing/page.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_product-ui-Bxzwk7sa.js",
-      "_commerce.module-Dt1KwiQ4.js",
-      "_framework-CXnKph_e.js"
-    ]
-  },
-  "app/word-count-tool/download/page.tsx": {
-    "file": "assets/page-Dnkf4UzU.js",
-    "name": "page",
-    "src": "app/word-count-tool/download/page.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_product-ui-Bxzwk7sa.js",
-      "_framework-CXnKph_e.js",
-      "_link-BOGedi5S.js"
-    ],
-    "css": [
-      "assets/page-DRfFic9_.css"
-    ]
-  },
-  "app/word-count-tool/page.tsx": {
-    "file": "assets/page-CtQm5JWO.js",
-    "name": "page",
-    "src": "app/word-count-tool/page.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_product-ui-Bxzwk7sa.js",
-      "_framework-CXnKph_e.js",
-      "_link-BOGedi5S.js"
-    ],
-    "css": [
-      "assets/page-BvifrZ7H.css"
-    ]
-  },
-  "app/word-count-tool/subscribe/page.tsx": {
-    "file": "assets/page-BSjlTz-S.js",
-    "name": "page",
-    "src": "app/word-count-tool/subscribe/page.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_product-ui-Bxzwk7sa.js",
-      "_commerce.module-Dt1KwiQ4.js",
-      "_framework-CXnKph_e.js",
-      "_link-BOGedi5S.js"
-    ]
-  },
-  "app/word-count-tool/subscribe/success/page.tsx": {
-    "file": "assets/page-T44MOcTB.js",
-    "name": "page",
-    "src": "app/word-count-tool/subscribe/success/page.tsx",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_product-ui-Bxzwk7sa.js",
-      "_commerce.module-Dt1KwiQ4.js",
-      "_framework-CXnKph_e.js",
-      "_link-BOGedi5S.js"
-    ]
-  },
-  "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context-DLU-5vNH.js",
-    "name": "layout-segment-context",
-    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js"
-    ]
-  },
   "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-Sks1c8th.js",
+    "file": "assets/router-Cd6nj3bp.js",
     "name": "router",
     "src": "node_modules/vinext/dist/shims/router.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-bym5aI3S.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js",
-      "_link-BOGedi5S.js"
+      "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry"
     ],
     "dynamicImports": [
-      "_framework-CXnKph_e.js"
+      "_framework-bym5aI3S.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-BiufxjAw.js",
+    "file": "assets/index-CRzTKzBf.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "_framework-CXnKph_e.js"
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-bym5aI3S.js"
     ],
     "dynamicImports": [
-      "app/word-count-tool/subscribe/page.tsx",
-      "node_modules/vinext/dist/shims/layout-segment-context.js",
-      "virtual:vinext-app-browser-entry",
-      "app/contact/contact-client.tsx",
-      "app/page.tsx",
-      "app/word-count-tool/billing/page.tsx",
-      "app/word-count-tool/subscribe/success/page.tsx",
-      "app/word-count-tool/download/page.tsx",
-      "_link-BOGedi5S.js",
-      "app/word-count-tool/page.tsx"
+      "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry"
+    ]
+  },
+  "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry": {
+    "file": "assets/worker-entry-CFkrW2wP.js",
+    "name": "worker-entry",
+    "src": "virtual:vite-rsc/client-references/group/facade:virtual:cloudflare/worker-entry",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-hePW80VL.js",
+      "_framework-bym5aI3S.js",
+      "virtual:vinext-app-browser-entry"
+    ],
+    "dynamicImports": [
+      "node_modules/vinext/dist/shims/router.js"
+    ],
+    "css": [
+      "assets/worker-entry-BkZ-xVXq.css"
     ]
   }
 }
